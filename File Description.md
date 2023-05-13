@@ -7,7 +7,7 @@
     * styles.css - Style sheet
     * gw_horizontal_2c.png - GW logo
 * Model - Contains Model Pickle File
-* Data - Contains Raw data
+* Data - Contains link to Raw data
 * Main.py - Contains code for the main page
 * Visualize.py - Contains code for the visualize page
 * Predict.py - Contains code for the predict page
@@ -25,4 +25,4 @@ To run the code locally, simply run the main.py file. Please note that the butto
 # Things to Note
 
 * The hosted project may run relatively slow due to resource constraints, so please be patient. This is because of the quota set by GCP on free resource
-* The final report is included in this section because the "Want to know more?" button on the Predict page lets you download a copy of the report. However, The one download by the aforementioned download button is not the final report. The final version is the one present in the Report directory.
+* Please read the final report in the Report directory to learn about this project in detail.

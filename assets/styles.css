@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Avenir:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.div-user-controls{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1, h2, h3, h4, h5, h6{
+  color: #FFD500;
+  letter-spacing: 2.1px;
+  padding-left: 12px;
+  padding-bottom: 20px;
+}
+#market-id-dropdown{
+  padding-left: 12px;
+  padding-bottom: 15px;
+  padding-top: 8px;
+  width: 400px;
+}
+#day-of-week-dropdown{
+  padding-left: 12px;
+  padding-bottom: 15px;
+  padding-top: 8px;
+  width: 400px;
+}
+
+/* Making dropdown menu transparent*/
+.Select-control {
+    background-color: rgb(48, 48, 48) !important;
+    color:white;
+  }
+
+.Select-menu-outer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+.Select-value-label {
+    color: white !important;
+}
+
+/* ##################### Custom styles for buttons #####################*/
+.custom-visualize-button {
+  color: #FFD500;
+  border: 1px solid #FFD500;
+  background-color: #303030;
+  width: 200px;
+  
+}
+
+.custom-visualize-button:hover {
+  background-color: #FFD500;
+  color: #000000;
+}
+
+.custom-visualize-button:active{
+  background-color: #FFD500;
+  color: #000000;
+}
+
+.custom-predict-button {
+  background-color: #FFD500;
+  color: #000000;
+  width: 200px;
+
+}
+
+.custom-predict-button:hover {
+  background-color: #FFA500;
+  color: #000000;
+}
+
+.custom-predict-button:active {
+  background-color: #FFA500;
+  color: #000000;
+}
+
+  
+.logos {
+  position: absolute;
+  bottom: 0;
+  width: 30%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+
+.card-quick-facts{
+  margin-top: 8%;
+  margin-bottom: 4%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+  height: 200px; 
+}
+
+.card-quick-facts .card-header {
+  background-color: #303030;
+  font-size: 1em;
+  color: #FFD500;
+  border-bottom: none;
+  text-align: center;
+}
+
+.card-quick-facts .card-body {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  height: 100%; 
+}
+
+/* ########################### Top Cousins ############################# */
+
+.top-categories-card {
+  margin-top: 8%;
+  margin-bottom: 4%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+  height: 200px; 
+}
+
+.top-categories-card .card-header {
+  background-color: #303030;
+  font-size: 1em;
+  color: #FFD500;
+  border-bottom: none;
+  text-align: center;
+}
+
+.top-categories-card .card-body {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  height: 100%;
+}
+
+/* #################### Line Graph #################### */
+
+.my-line-card{
+  margin-bottom: 1%;
+  margin-top: 3%;
+
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -10px -10px 40px #4d4d4d;
+}
+
+/* #################### Histogram #################### */
+
+.my-histogram-card{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+               
+}
+
+
+.Select-value-label {
+  color: #FFD500 !important;
+}
+
+/* #################### Pie Chart #################### */
+
+.pie-chart{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+
+}
+
+/* #################### Stack Plot #################### */
+
+.my-stack-card{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+
+}
+
+/* #################### Scatter Plot #################### */
+
+.all-scatter-plot{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+
+}
+
+/* #################### Bubble Plot #################### */
+
+.my-buble-chart{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+
+}
+
+
+.my-slider .rc-slider-track {
+  background-color: #FFD500;
+}
+
+.my-slider .rc-slider-handle {
+  border: solid 1px #FFD500;
+  background-color: #FFD500;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+
+
+.rc-slider-dot-active {  
+  border-color: #FFD500;
+  border: solid 2px #FFD500;
+}
+
+
+.rc-slider-handle:hover {
+  border-color: #FFD500;
+}
+
+/* ##################### Heat Map ##################### */
+
+.multi-feat-heat{
+  margin-bottom: 1%;
+  margin-top: 3%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -10px -10px 40px #4d4d4d;  
+}
+
+/* ##################### Violin Plot ##################### */
+
+.violin-card{
+  margin-bottom: 1%;
+  margin-top: 3%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -10px -10px 40px #4d4d4d;  
+}
+
+/* ##################### Q-Q Plot ##################### */
+
+.qq-card{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+
+}
+/* ##################### Kde Plot ##################### */
+
+.kernel-density-card{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+
+}
+
+/* ##################### Count Plot ##################### */
+
+.dist-plot-card{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+
+}
+
+/* ##################### Box Plot ##################### */
+
+.box-plot-card{
+  margin-bottom: 3%;
+  margin-top: 1%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+}
+
+/* ##################### Control Panel ##################### */
+
+.control-panel{
+  margin-left: None;
+  margin-top: 5%;
+  font-family: 'Avenir', sans-serif;
+  border-radius: 10px;
+  background: #303030;
+  box-shadow:  30px 30px 60px #131313,
+               -30px -30px 60px #4d4d4d;
+}
+
+.control-panel .card-header {
+  background-color: #303030;
+  font-size: 32px;
+  color: #FFD500;
+  border-bottom: none;
+  text-align: center;
+}
+
+.control-panel .card-body {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  height: 100%; 
+}
+
+.order-date-label {
+  margin-right: 10px;
+}
+
+.at-label {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.order-date-col{
+  padding-top: 5%;
+}
+
+.at-col{
+  padding-top: 5%;
+}
+
+
+/* ################### Date Time Picker ##################### */
+
+.date-picker {
+  position: relative;
+  color: #FFD500;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;  
+}
+
+.date-picker input {
+  background-color: #303030;
+  border: 1px solid #FFD500;
+  border-radius: 5px;
+  color: #FFD500;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: 'Avenir', sans-serif;
+}
+
+.date-picker .CalendarDay {
+  color: #FFD500;
+  background-color: #303030;
+}
+
+.date-picker .CalendarDay:hover {
+  background-color: #FFA500;
+  color: #303030;
+}
+
+.date-picker .CalendarDay--selected,
+.date-picker .CalendarDay--selected:hover {
+  background-color: #FFD500;
+  color: #303030;
+}
+
+.date-picker .DayPickerNavigation_button {
+  color: #FFD500;
+  background-color: #303030;
+}
+
+.date-picker .DayPickerNavigation_button:hover {
+  color: #FFA500;
+}
+
+.date-picker .CalendarMonth_caption {
+  color: #FFD500;
+}
+
+.date-picker .CalendarMonth {
+  background-color: #303030;
+}
+
+.date-picker .DayPicker {
+  background-color: #303030;
+}
+
+.date-picker .DateInput {
+  background-color: #303030;
+}
+
+.date-picker .SingleDatePickerInput {
+  background-color: #303030;
+}
+
+.date-picker .DateInput_input {
+  background-color: #303030 !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #FFD500 !important;
+  -webkit-text-fill-color: #FFD500 !important;
+}
+
+.date-picker .DateInput_input:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.date-picker .DateInput_fang {
+  display: none !important;
+}
+
+.date-picker .DayPicker_transitionContainer {
+  background-color: #303030;
+}
+
+/* New rules */
+
+
+.date-picker .CalendarMonthGrid {
+  background-color: #303030;
+}
+
+.date-picker .DayPickerKeyboardShortcuts_buttonReset {
+  visibility: hidden;
+}
+
+
+/* ################### Hour ##################### */
+
+.Select--single .Select-placeholder {
+  color: #FFD500;
+}
+
+
+.delivery-distance-slider .rc-slider-track {
+  background-color: #FFD500;
+}
+
+.delivery-distance-slider .rc-slider-handle {
+  border: solid 1px #FFD500;
+  background-color: #FFD500;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+}
+.delivery-distance-slider .rc-slider {
+  width: 330px;
+  margin-top: 8%;
+}
+
+/* ################### Radio Button ##################### */
+
+.payment-type-radioitems .custom-control-input:checked~.custom-control-label::before {
+    background-color: #FFD500;
+    border-color: #FFD500;
+}
+
+.payment-type-radioitems input[type='radio'] {
+  margin-right: 15px;
+}
+
+.payment-type-radioitems input[type='radio']:checked::after {
+  background-color: #FFD500;
+}
+
+.radio{
+  color: #FFD500;
+  background-color: #FFD500;
+}
+
+.yellow-radio .checkmark {
+  background-color: #FFD500;
+}
+
+.yellow-radio input:checked ~ .checkmark:after {
+  background-color: #FFD500;
+}
+
+.yellow-placeholder::placeholder {
+  color: #FFD500;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

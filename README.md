@@ -14,3 +14,27 @@
 <p style="font-size: 17px"> Whether you're a foodie, a data scientist, or just someone who hates waiting for food, this dataset is sure to pique your interest. So why not take a closer look and see what insights we can uncover?</p>
 
 *Tools and Models - Jupyter Notebook, Dash, XGBoost Regression, Multi-Layer Perceptron Regressor, Decision Tree Regression, Support Vector Regression, K-Nearest Neighbors Regression, Linear Regression, PCA, Random Forest with Gini Importance, and Multi-Colinearity Detection.*
+
+<h3> How to Run the Project </h3>
+
+There are two ways to run the project:
+
+<strong>Option 1: Running Locally</strong>
+
+If you prefer to run the project locally, you will need to follow these steps:
+
+1. Clone the project repository
+2. Download the necessary data files and place them in the 'Data' directory
+3. Run the 'Master.ipynb' notebook for an in-depth walkthrough of the project, including data preprocessing and modeling
+4. Run 'Main.py', 'Visualize.py', and 'Predict.py' to view the dashboard one page at a time
+
+<strong>Option 2: Viewing Hosted Project</strong>
+
+Alternatively, you can view the final project without downloading anything by visiting the following links:
+
+1. 'Master.ipynb' on GitHub (note that interactive plots may not be displayed): [insert link here]
+2. The dashboard: https://dashapp-3h7gsvk4ca-nn.a.run.app/
+
+<p style= 'color:#ff6666'> Please note that the dashboard may take a bit longer to render and display due to hardware limitations.</p>
+
+Thank you for your interest in our project. We hope you find it informative and enjoyable to explore!

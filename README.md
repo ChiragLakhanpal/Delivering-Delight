@@ -32,7 +32,7 @@ If you prefer to run the project locally, you will need to follow these steps:
 
 Alternatively, you can view the final project without downloading anything by visiting the following links:
 
-1. 'Master.ipynb' on GitHub (note that interactive plots may not be displayed): [insert link here]
+1. 'Master.ipynb' on GitHub (note that interactive plots may not be displayed)
 2. The dashboard: https://dashapp-3h7gsvk4ca-nn.a.run.app/
 
 <p style= 'color:#ff6666'> Please note that the dashboard may take a bit longer to render and display due to hardware limitations.</p>
